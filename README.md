@@ -13,8 +13,8 @@ A multi-turn AI appointment scheduling agent built with Next.js, TypeScript, Gem
 1. Clone the repository and open the project directory.
 
    ```bash
-   git clone <YOUR_REPOSITORY_URL>
-   cd <YOUR_PROJECT_DIRECTORY>
+   git clone https://github.com/Abhishek-3191/Patient-Scheduling-Assistant.git
+   cd Patient-Scheduling-Assistant
    ```
 
 2. Install dependencies.
