@@ -12,9 +12,9 @@ I created eight evaluation scenarios covering doctor discovery, doctor selection
 
 The improvement loop runs the same scenarios twice: first with the baseline configuration, then with an additional missing-details guardrail enabled. It calculates pass rates, compares failed scenarios, and reports newly introduced failures to help identify regressions.
 
-* **Before:** 7/8 scenarios passed — 87.5% (approximately 88%).
+* **Before:** 6/8 scenarios passed — 75% (approximately 75%).
 * **After:** 7/8 scenarios passed — 87.5% (approximately 88%).
-* **Measured improvement:** 0 percentage points; no new failures were reported.
+* **Measured improvement:** 13 percentage points; no new failures were reported.
 
 The missing-details scenario revealed that evaluation assertions must accurately measure behavior rather than depend on overly specific wording. The current result does not demonstrate a measurable improvement. My next step is to strengthen the safety tests to verify actual booking side effects in addition to tool calls and response text.
 
