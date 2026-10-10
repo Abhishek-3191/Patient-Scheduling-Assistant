@@ -32,9 +32,13 @@ A multi-turn AI appointment scheduling agent built with Next.js, TypeScript, Gem
    EVALUATION_PATIENT_EMAIL=evaluation@example.com
    EVALUATION_PATIENT_ID=6ac6b4031e0b85a12c8d02be
    ```
-   For email and id you can run  
+   For email and id you can run 
    ```bash
    npm run seed
+   ```
+   after adding in package.json
+     ```bash
+   "seed": "tsx scripts/seed.ts"
    ```
    Replace the API key and MongoDB connection string with your own values. Ensure the evaluation patient ID exists in your database and corresponds to the intended test patient. Never commit your `.env` file.
 
